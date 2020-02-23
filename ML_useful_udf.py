@@ -50,6 +50,9 @@ def binary_classification_performance(y_test, y_pred):
 
 # from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 def regression_performace(y_true, y_pred):
+    """
+    This functions evaluates the regression model
+    """
     r2_score = r2_score(y_true = y_true, y_pred = y_pred)
     mean_absolute_error = mean_absolute_error(y_true = y_true, y_pred = y_pred)
     mean_squared_error = mean_squared_error(y_true = y_true, y_pred = y_pred)
